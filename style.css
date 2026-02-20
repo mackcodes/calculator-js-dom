@@ -19,6 +19,24 @@ main{
 
 .display{
     height: 234px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#displayFooter{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 19px 0px 19px;
+}
+.leftSide{
+    display: flex;
+    gap: 25px;
+}
+.history, .ruler, .squareRoot{
+    height: 24px;
+    width: 24px;
 }
 .line{
     width: 352px;
